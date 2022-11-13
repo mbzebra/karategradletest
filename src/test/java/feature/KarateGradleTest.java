@@ -2,7 +2,7 @@ package feature;
 
 import com.intuit.karate.junit5.Karate;
 
-public class NutriKarateTest {
+public class KarateGradleTest {
 
 
     @Karate.Test

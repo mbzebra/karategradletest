@@ -117,4 +117,14 @@ Build step 'Invoke Gradle script' changed build result to SUCCESS
 Finished: SUCCESS
 ```
 
+### Karate Test Reports in Jenkins
+You can find the test reports in Jenkins by navigating inside the project workspace
+
+![img_3.png](img_3.png)
+
+Go to Test Reports folder
+
+![img_4.png](img_4.png)
+
+Click on index.html to view the report
 
