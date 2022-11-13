@@ -82,11 +82,11 @@ Feature: Example Test Feature
 
 ### Jenkins Configuration Steps
 
-![img_2.png](img_2.png)
+![img_2.png](images/img_2.png)
 
-![img_1.png](img_1.png)
+![img_1.png](images/img_1.png)
 
-![img.png](img.png)
+![img.png](images/img.png)
 
 
 ### Successful Jenkins Build
@@ -120,11 +120,12 @@ Finished: SUCCESS
 ### Karate Test Reports in Jenkins
 You can find the test reports in Jenkins by navigating inside the project workspace
 
-![img_3.png](img_3.png)
+![img_3.png](images/img_3.png)
 
 Go to Test Reports folder
 
-![img_4.png](img_4.png)
+![img_4.png](images/img_4.png)
 
 Click on index.html to view the report
 
+![img_5.png](images/img_5.png)
