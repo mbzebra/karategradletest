@@ -9,7 +9,7 @@
 | [Jenkins](https://www.jenkins.io/)           |Continuous Integration System |
 
 
-Build Gradle
+### Build Gradle
 
 ```groovy
 buildscript {
@@ -63,7 +63,7 @@ task karateDebug(type: JavaExec) {
 ```
 
 
-Karate Feature 
+### Karate Feature Description
 
 ```gherkin
 Feature: Example Test Feature
@@ -80,7 +80,7 @@ Feature: Example Test Feature
 
 ```
 
-Jenkins Integration
+### Jenkins Configuration Steps
 
 ![img_2.png](img_2.png)
 
@@ -89,7 +89,32 @@ Jenkins Integration
 ![img.png](img.png)
 
 
+### Successful Jenkins Build
 
+```html
+Starting a Gradle Daemon, 1 incompatible Daemon could not be reused, use --status for details
+> Task :compileJava NO-SOURCE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+> Task :jar
+> Task :assemble
+> Task :compileTestJava
+> Task :processTestResources
+> Task :testClasses
+> Task :test
+> Task :check
+> Task :build
 
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.6-rc-3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 32s
+4 actionable tasks: 4 executed
+Build step 'Invoke Gradle script' changed build result to SUCCESS
+Finished: SUCCESS
+```
 
 
