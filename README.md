@@ -1,0 +1,2 @@
+# karategradletest
+Karate Gradle Test
